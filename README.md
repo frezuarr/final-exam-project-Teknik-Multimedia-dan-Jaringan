@@ -1,56 +1,80 @@
-# Sistem Manajemen Kas Sekolah - SMA Negeri 28 Jakarta
+📊 Sistem Informasi Manajemen Kas Sekolah
+🏫 SMA Negeri 28 Jakarta
 
-Aplikasi web untuk manajemen kas sekolah yang dibuat menggunakan Framework Laravel 11 dan Livewire 3. Dikembangkan sebagai project UAS Pemrograman Web dengan studi kasus SMA Negeri 28 Jakarta.
+Aplikasi sistem informasi berbasis web untuk mendukung proses pencatatan dan pengelolaan transaksi kas pada lingkungan sekolah. Sistem dibangun menggunakan Laravel 11 dan Livewire 3, sebagai bagian dari pelaksanaan Ujian Akhir Semester pada mata kuliah Pemrograman Web.
 
-## Tentang SMA Negeri 28 Jakarta
+🏫 Profil Singkat Sekolah
 
-SMA Negeri 28 Jakarta adalah Sekolah Plus Standar Nasional yang didirikan pada 1 Januari 1970, berlokasi di Pasar Minggu, Jakarta Selatan. Mengusung motto **TAQWA, CERDAS, SANTUN, PRESTASI**, sekolah ini berkomitmen mewujudkan lulusan yang unggul berdasarkan IMTAK dan IPTEK.
+SMA Negeri 28 Jakarta merupakan salah satu sekolah negeri di wilayah Pasar Minggu – Jakarta Selatan, berorientasi pada pembentukan lulusan yang unggul dalam aspek akademik maupun karakter, melalui penerapan visi dan misi pendidikan berstandar nasional.
 
-Website Resmi: [https://sman28jkt.sch.id/](https://sman28jkt.sch.id/)
+🎯 Tujuan Pengembangan
 
-## Demo
+Sistem ini dikembangkan dengan tujuan untuk:
 
--   🌐 **Live Demo:** [https://laravel.mhaunan.me/](https://laravel.mhaunan.me/)
+📌 meningkatkan efektifitas pencatatan transaksi kas,
 
-## Prasyarat
+📌 menyediakan riwayat transaksi secara sistematis,
 
-Berikut beberapa hal yang perlu diinstal terlebih dahulu:
+📌 meminimalisir kesalahan pencatatan,
 
--   Composer (https://getcomposer.org/)
--   PHP ^8.2
--   MySQL 15.x
--   NodeJS ^20.x (https://nodejs.org/)
--   XAMPP (https://www.apachefriends.org/)
+📌 menyediakan laporan kas yang akurat,
 
-Jika Anda menggunakan XAMPP, PHP, dan MySQL sudah menjadi satu paket di dalam aplikasi XAMPP.
+📌 mempercepat akses informasi transaksi oleh admin sekolah.
 
-## Fitur
+⚙️ Fitur Sistem
+📘 Informasi Sekolah
 
--   Homepage modern dengan slider
--   Dark/Light mode toggle
--   Halaman Biodata Sekolah
--   Halaman Sejarah & Visi Misi
--   Halaman Kontak dengan Maps
--   CRUD Pelajar
--   CRUD Kelas
--   CRUD Jurusan
--   Transaksi kas
--   Filter transaksi kas
--   CRUD Administrator
--   Pengaturan Profil
+Profil
 
-## Preview
+Visi & Misi
 
-Lihat demo langsung di: **[https://laravel.mhaunan.me/](https://laravel.mhaunan.me/)**
+Sejarah
 
-### Fitur Utama:
-- ✨ Modern homepage dengan hero slider
-- 🌓 Dark/Light mode toggle
-- 📱 Fully responsive design
-- 🏫 Halaman Biodata, Sejarah, dan Kontak SMAN 28 Jakarta
-- 💰 Dashboard manajemen kas sekolah
-- 👥 CRUD Siswa, Kelas, dan Jurusan
-- 📊 Transaksi kas dengan filter
+Kontak
+
+👤 Manajemen Pengguna
+
+Administrator
+
+Hak akses
+
+🧑‍🏫 Data Akademik
+
+Data Siswa
+
+Data Kelas
+
+Data Jurusan
+
+💰 Transaksi Kas
+
+Kas Masuk
+
+Kas Keluar
+
+Filtering berdasarkan periode
+
+Dashboard monitoring
+
+🎨 Antarmuka Pengguna
+
+Modern & responsif
+
+Dark mode & light mode
+
+UI berbasis komponen
+
+💻 Kebutuhan Sistem
+
+PHP 8.2+
+
+Composer
+
+NodeJS 20+
+
+MySQL
+
+XAMPP/WAMP
 
 ## Langkah-langkah Instalasi
 
@@ -146,29 +170,30 @@ Email   : admin@mail.com
 Pass    : secret
 ```
 
-## Dibuat dengan
+🧩 Teknologi Digunakan
 
--   Laravel 11 (https://laravel.com/)
--   Livewire 3 (https://livewire.laravel.com/)
--   Mazer Admin Dashboard (https://github.com/zuramai/mazer)
--   Bootstrap 5 (https://getbootstrap.com/)
--   Swiper.js (https://swiperjs.com/)
+⚡ Laravel 11
 
-## Customized For
+⚡ Livewire 3
 
--   SMA Negeri 28 Jakarta
--   Custom modern homepage design
--   Dark mode support
--   Responsive layout
+🎨 Bootstrap 5
 
-## Project Information
+🖥️ Mazer Admin Template
 
--   **Mata Kuliah:** Pemrograman Web
--   **Tugas:** UAS (Ujian Akhir Semester)
--   **Studi Kasus:** SMA Negeri 28 Jakarta
--   **Tahun:** 2025
+🌀 Swiper.js
 
-## Developer
+📁 Informasi Proyek
 
--   [@mughnihaunan](https://github.com/mughnihaunan)
--   Developed for SMAN 28 Jakarta - 2025
+🧾 Mata kuliah : Pemrograman Web
+
+🧾 Kegiatan : UAS
+
+🧾 Institusi : SMA Negeri 28 Jakarta
+
+🧾 Tahun : 2025
+
+👨‍💻 Pengembang
+
+Syamil
+Pengembang sistem informasi manajemen kas sekolah
+2025
