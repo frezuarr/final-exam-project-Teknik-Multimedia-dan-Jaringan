@@ -1,3 +1,4 @@
+
 📊 Sistem Informasi Manajemen Kas Sekolah
 ---
 🏫 SMA Negeri 28 Jakarta
@@ -96,13 +97,13 @@ XAMPP/WAMP
 **HTTPS:**
 
 ```bash
-$ git clone https://github.com/mughnihaunan/sekolah-kas-template-webdev.git
+$ git clone https://github.com/frezuarr/final-exam-project-Teknik-Multimedia-dan-Jaringan.git
 ````
 
 **SSH:**
 
 ```bash
-$ git clone git@github.com:mughnihaunan/sekolah-kas-template-webdev.git
+$ git clone git@github.com:frezuarr/final-exam-project-Teknik-Multimedia-dan-Jaringan.git
 ```
 
 2. Instal seluruh packages yang dibutuhkan.
@@ -149,6 +150,8 @@ $ php artisan serve
 
 ```bash
 INFO  Server running on [http://127.0.0.1:8000].
+
+Press Ctrl+C to stop the server
 ```
 
 8. Jalankan juga development server untuk NPM.
@@ -157,8 +160,21 @@ INFO  Server running on [http://127.0.0.1:8000].
 $ npm run dev
 ```
 
-```
-VITE ...
+```bash
+> dev
+> vite
+
+
+  VITE v5.4.9  ready in 341 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+  LARAVEL v11.28.1  plugin v1.0.5
+
+  ➜  APP_URL: http://localhost
+
 ```
 
 ---
@@ -207,5 +223,5 @@ Pengembang sistem informasi manajemen kas sekolah
 2025
 
 ```
-
-
+iew, sama table fitur profesional 😉
+```
