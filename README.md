@@ -221,7 +221,3 @@ Pass    : secret
 Syamil
 Pengembang sistem informasi manajemen kas sekolah
 2025
-
-```
-iew, sama table fitur profesional 😉
-```
