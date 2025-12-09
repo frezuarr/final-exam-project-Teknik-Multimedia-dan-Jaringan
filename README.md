@@ -220,7 +220,7 @@ Pass    : secret
 ---
 
 **👤 Ahmad Syamil Syauqie**  
-🔗 GitHub: @frezuarr  
+🔗 GitHub: [@frezuarr](https://github.com/frezuarr)
 
 
 📌 Developer – Sistem Informasi Manajemen Kas Sekolah  
