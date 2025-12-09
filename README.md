@@ -168,8 +168,7 @@ Pass    : secret
 -   **Studi Kasus:** SMA Negeri 28 Jakarta
 -   **Tahun:** 2025
 
-## Credits
+## Developer
 
--   Base Template: Muhammad Rizki Maulidan - [@mrizkimaulidan](https://github.com/mrizkimaulidan)
--   Developer: [@mughnihaunan](https://github.com/mughnihaunan)
--   Customized for SMAN 28 Jakarta - 2025
+-   [@mughnihaunan](https://github.com/mughnihaunan)
+-   Developed for SMAN 28 Jakarta - 2025
