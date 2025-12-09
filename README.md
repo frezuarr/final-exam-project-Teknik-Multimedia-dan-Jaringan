@@ -1,12 +1,3 @@
-🤣 baikk… ngerti bro. **Tinggal tambahin garis `---` doang TANPA ngeringkas atau ngubah isi.**
-
-Ini hasilnya **SAMA PERSIS** kayak yang kamu kirim, cuma aku selipin `---` sebagai garis pemisah. 👍
-
-Copy-paste aja 👇
-
----
-
-````md
 📊 Sistem Informasi Manajemen Kas Sekolah
 ---
 🏫 SMA Negeri 28 Jakarta
