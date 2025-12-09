@@ -26,10 +26,10 @@
         .vm-title {
             font-size: 1.8rem;
             font-weight: 700;
-            color: #2563eb;
+            color: #ff7a00;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 3px solid #2563eb;
+            border-bottom: 3px solid #ff7a00;
         }
 
         .vm-text {
@@ -56,7 +56,7 @@
             content: "✓";
             position: absolute;
             left: 0;
-            color: #2563eb;
+            color: #ff7a00;
             font-weight: bold;
             font-size: 1.3rem;
         }
@@ -67,8 +67,8 @@
         }
 
         body.dark-mode .vm-title {
-            color: #60a5fa;
-            border-bottom-color: #60a5fa;
+            color: #ffb86b;
+            border-bottom-color: #ffb86b;
         }
 
         body.dark-mode .sejarah-text,

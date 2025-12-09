@@ -58,7 +58,9 @@
               </label>
             </div>
 
-            <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5" type="submit">Masuk</button>
+            <button class="btn btn-block btn-lg shadow-lg mt-5 btn-login-modern" type="submit" id="btnMasuk">
+              <span class="btn-text">Masuk</span>
+            </button>
           </form>
         </div>
       </div>
@@ -69,4 +71,100 @@
       </div>
     </div>
   </div>
+
+  <style>
+    .form-control {
+      border: 2px solid #e2e8f0;
+      transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+      border-color: #ff7a00;
+      box-shadow: 0 0 0 0.2rem rgba(255, 122, 0, 0.15);
+    }
+
+    .form-check-input:checked {
+      background-color: #ff7a00;
+      border-color: #ff7a00;
+    }
+
+    .form-check-input:focus {
+      border-color: #ff7a00;
+      box-shadow: 0 0 0 0.25rem rgba(255, 122, 0, 0.25);
+    }
+
+    #auth-left {
+      background: linear-gradient(to bottom, rgba(255,255,255,0.95), rgba(255,255,255,0.98));
+      border-radius: 0;
+    }
+
+    .auth-title {
+      background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Modern Slide Button Effect */
+    .btn-login-modern {
+      position: relative;
+      background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
+      color: white;
+      border: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      overflow: visible;
+      transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 1;
+    }
+
+    .btn-login-modern::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.25);
+      transition: left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: -1;
+    }
+
+    .btn-login-modern:hover::before {
+      left: 100%;
+    }
+
+    .btn-login-modern:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 45px rgba(255, 122, 0, 0.5);
+      letter-spacing: 1px;
+    }
+
+    .btn-login-modern:active {
+      transform: scale(0.98);
+      box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(255, 122, 0, 0.7);
+      animation: ripple-effect 0.6s ease-out;
+    }
+
+    .btn-login-modern:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-text {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+    }
+
+    @keyframes ripple-effect {
+      0% {
+        box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(255, 122, 0, 0.7);
+      }
+      100% {
+        box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.2), 0 0 0 15px rgba(255, 122, 0, 0);
+      }
+    }
+  </style>
 </div>

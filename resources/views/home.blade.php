@@ -26,14 +26,14 @@
         .stat-item {
             text-align: center;
             padding: 30px;
-            border-left: 4px solid #2563eb;
-            background: rgba(37, 99, 235, 0.03);
+            border-left: 4px solid #ff7a00;
+            background: rgba(255, 122, 0, 0.03);
         }
 
         .stat-number {
             font-size: 3rem;
             font-weight: 800;
-            color: #2563eb;
+            color: #ff7a00;
             margin-bottom: 10px;
         }
 
@@ -56,7 +56,7 @@
 
         .feature-icon {
             font-size: 2.5rem;
-            color: #2563eb;
+            color: #ff7a00;
             margin-bottom: 15px;
         }
 
@@ -99,20 +99,20 @@
             display: flex;
             align-items: center;
             padding: 25px;
-            border-left: 4px solid #2563eb;
-            background: rgba(37, 99, 235, 0.03);
+            border-left: 4px solid #ff7a00;
+            background: rgba(255, 122, 0, 0.03);
             text-decoration: none;
             transition: all 0.3s ease;
         }
 
         .quick-link:hover {
             border-left-width: 8px;
-            background: rgba(37, 99, 235, 0.08);
+            background: rgba(255, 122, 0, 0.08);
         }
 
         .quick-link-icon {
             font-size: 2.5rem;
-            color: #2563eb;
+            color: #ff7a00;
             margin-right: 20px;
         }
 
@@ -133,7 +133,7 @@
             text-align: center;
             padding: 40px;
             margin: 50px 0;
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
             color: white;
         }
 
@@ -159,14 +159,14 @@
 
         body.dark-mode .stat-item,
         body.dark-mode .quick-link {
-            background: rgba(96, 165, 250, 0.1);
-            border-left-color: #60a5fa;
+            background: rgba(255, 184, 107, 0.08);
+            border-left-color: #ffb86b;
         }
 
         body.dark-mode .stat-number,
         body.dark-mode .feature-icon,
         body.dark-mode .quick-link-icon {
-            color: #60a5fa;
+            color: #ffb86b;
         }
     </style>
 
@@ -249,7 +249,7 @@
             <a href="/biodata" class="quick-link">
                 <i class="bi bi-info-circle-fill quick-link-icon"></i>
                 <div>
-                    <div class="quick-link-title">Biodata Sekolah</div>
+                    <div class="quick-link-title">Biografi Sekolah</div>
                     <p class="quick-link-desc">Informasi lengkap profil dan data sekolah</p>
                 </div>
             </a>
@@ -265,7 +265,7 @@
             <a href="/contact" class="quick-link">
                 <i class="bi bi-telephone-fill quick-link-icon"></i>
                 <div>
-                    <div class="quick-link-title">Hubungi Kami</div>
+                    <div class="quick-link-title">Contact Us</div>
                     <p class="quick-link-desc">Informasi kontak dan lokasi sekolah</p>
                 </div>
             </a>

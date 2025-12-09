@@ -16,6 +16,7 @@
   <link rel="stylesheet" crossorigin href="{{ asset('compiled/css/app.css') }}" />
   <link rel="stylesheet" crossorigin href="{{ asset('compiled/css/app-dark.css') }}" />
   <link rel="stylesheet" crossorigin href="{{ asset('compiled/css/iconly.css') }}" />
+  <link rel="stylesheet" crossorigin href="{{ asset('css/dashboard-orange.css') }}" />
   <link rel="stylesheet" crossorigin href="{{ asset('extensions/sweetalert2/sweetalert2.min.css') }}" />
   @vite('resources/js/app.js')
 </head>
@@ -160,13 +161,13 @@
       <footer>
         <div class="footer clearfix mb-0 text-muted">
           <div class="float-start">
-            <p>2023 &copy; Mazer</p>
+            <p>2023 &copy; Frezuarr</p>
           </div>
           <div class="float-end">
             <p>
               Crafted with
               <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
-              by <a href="https://saugi.me">Saugi</a>
+              by <a href="https://saugi.me">Syamil</a>
             </p>
           </div>
         </div>

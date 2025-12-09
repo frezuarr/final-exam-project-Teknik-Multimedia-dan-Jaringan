@@ -78,7 +78,7 @@
             transform: translateX(-50%);
             width: 0;
             height: 2px;
-            background: #2563eb;
+            background: #ff7a00;
             transition: width 0.3s ease;
         }
 
@@ -88,11 +88,11 @@
         }
 
         .navbar-modern .nav-link:hover {
-            color: #2563eb;
+            color: #ff7a00;
         }
 
         .btn-login-modern {
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
             color: white;
             padding: 10px 30px;
             border-radius: 30px;
@@ -103,7 +103,7 @@
 
         .btn-login-modern:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+            box-shadow: 0 8px 25px rgba(255, 122, 0, 0.3);
             color: white;
         }
 
@@ -167,7 +167,7 @@
 
         .slide-content .btn-explore {
             background: white;
-            color: #2563eb;
+            color: #ff7a00;
             padding: 15px 40px;
             border-radius: 50px;
             font-weight: 700;
@@ -207,7 +207,7 @@
         /* Swiper Custom Navigation */
         .swiper-button-next,
         .swiper-button-prev {
-            background: rgba(255, 255, 255, 0.3);
+            background: linear-gradient(135deg, rgba(255, 122, 0, 0.8) 0%, rgba(255, 69, 0, 0.8) 100%);
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -254,7 +254,7 @@
         .footer-section h5 {
             font-weight: 700;
             margin-bottom: 20px;
-            color: #60a5fa;
+            color: #ffb86b;
         }
 
         .footer-section ul {
@@ -273,7 +273,7 @@
         }
 
         .footer-section ul li a:hover {
-            color: #60a5fa;
+            color: #ffb86b;
         }
 
         .footer-social a {
@@ -282,15 +282,15 @@
             justify-content: center;
             width: 45px;
             height: 45px;
-            background: rgba(96, 165, 250, 0.1);
+            background: rgba(255, 184, 107, 0.08);
             border-radius: 50%;
             margin-right: 10px;
-            color: #60a5fa;
+            color: #ffb86b;
             transition: all 0.3s;
         }
 
         .footer-social a:hover {
-            background: #60a5fa;
+            background: #ffb86b;
             color: white;
             transform: translateY(-3px);
         }
@@ -315,7 +315,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+            background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
             color: white;
             border: none;
             font-size: 1.5rem;
@@ -408,13 +408,13 @@
                         <a class="nav-link active" href="/">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/biodata">Biodata</a>
+                        <a class="nav-link" href="/biodata">Biografi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/sejarah">Sejarah</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Kontak</a>
+                        <a class="nav-link" href="/contact">Contact Us</a>
                     </li>
                     <li class="nav-item ms-3">
                         <a href="/login" class="btn btn-login-modern">
@@ -507,9 +507,9 @@
                     <h5>Menu Cepat</h5>
                     <ul>
                         <li><a href="/">Beranda</a></li>
-                        <li><a href="/biodata">Biodata Sekolah</a></li>
+                        <li><a href="/biodata">Biografi Sekolah</a></li>
                         <li><a href="/sejarah">Sejarah & Visi Misi</a></li>
-                        <li><a href="/contact">Kontak Kami</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
                 </div>
 

@@ -1,4 +1,4 @@
-<x-layouts.homepage title="Biodata Sekolah">
+<x-layouts.homepage title="Biografi Sekolah">
 
     <style>
         .bio-section {
@@ -26,7 +26,7 @@
         .bio-label {
             font-size: 0.9rem;
             font-weight: 600;
-            color: #2563eb;
+            color: #ff7a00;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 8px;
@@ -53,7 +53,7 @@
     </style>
 
     <div class="container bio-section">
-        <h1 class="bio-title">Biodata Sekolah</h1>
+        <h1 class="bio-title">Biografi Sekolah</h1>
 
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -100,7 +100,7 @@
 
                 <div class="bio-item">
                     <div class="bio-label">Website</div>
-                    <div class="bio-value"><a href="https://sman28jkt.sch.id/" target="_blank" style="color: #2563eb; text-decoration: none;">sman28jkt.sch.id</a></div>
+                    <div class="bio-value"><a href="https://sman28jkt.sch.id/" target="_blank" style="color: #ff7a00; text-decoration: none;">sman28jkt.sch.id</a></div>
                 </div>
 
             </div>

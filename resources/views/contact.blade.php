@@ -18,13 +18,13 @@
             align-items: flex-start;
             margin-bottom: 35px;
             padding: 20px;
-            border-left: 4px solid #2563eb;
-            background: rgba(37, 99, 235, 0.03);
+            border-left: 4px solid #ff7a00;
+            background: rgba(255, 122, 0, 0.03);
         }
 
         .contact-icon {
             font-size: 2rem;
-            color: #2563eb;
+            color: #ff7a00;
             margin-right: 20px;
             margin-top: 5px;
         }
@@ -32,7 +32,7 @@
         .contact-label {
             font-size: 0.85rem;
             font-weight: 600;
-            color: #2563eb;
+            color: #ff7a00;
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 5px;
@@ -46,7 +46,7 @@
         }
 
         .contact-value a {
-            color: #2563eb;
+            color: #ff7a00;
             text-decoration: none;
         }
 
@@ -74,13 +74,13 @@
         }
 
         body.dark-mode .contact-item {
-            background: rgba(96, 165, 250, 0.1);
-            border-left-color: #60a5fa;
+            background: rgba(255, 184, 107, 0.08);
+            border-left-color: #ffb86b;
         }
 
         body.dark-mode .contact-icon,
         body.dark-mode .contact-label {
-            color: #60a5fa;
+            color: #ffb86b;
         }
 
         body.dark-mode .contact-value {
@@ -88,12 +88,12 @@
         }
 
         body.dark-mode .contact-value a {
-            color: #60a5fa;
+            color: #ffb86b;
         }
     </style>
 
     <div class="container contact-section">
-        <h1 class="contact-title">Hubungi Kami</h1>
+        <h1 class="contact-title">Contact Us</h1>
 
         <div class="row justify-content-center">
             <div class="col-lg-8">

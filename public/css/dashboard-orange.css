@@ -1,0 +1,108 @@
+/* Dashboard Sidebar Orange Theme Override */
+:root {
+    --bs-primary: #ff7a00;
+    --bs-primary-rgb: 255, 122, 0;
+}
+
+/* Primary button colors */
+.btn-primary {
+    --bs-btn-bg: #ff7a00;
+    --bs-btn-border-color: #ff7a00;
+    --bs-btn-hover-bg: #ff4500;
+    --bs-btn-hover-border-color: #ff4500;
+    --bs-btn-active-bg: #ff4500;
+    --bs-btn-active-border-color: #ff4500;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500 !important;
+    border-color: #ff4500 !important;
+}
+
+/* Sidebar & Menu */
+.sidebar {
+    background: linear-gradient(135deg, #ff7a00 0%, #ff4500 100%);
+}
+
+.sidebar .menu > .menu-item > .menu-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.sidebar .menu > .menu-item > .menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Form elements */
+.form-check-input:checked {
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+}
+
+.form-check-input:focus {
+    border-color: #ff7a00;
+    box-shadow: 0 0 0 0.25rem rgba(255, 122, 0, 0.25);
+}
+
+/* Range slider */
+.form-range::-webkit-slider-thumb {
+    background-color: #ff7a00;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #ff7a00;
+}
+
+/* Links */
+a {
+    color: #ff7a00;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/* Alerts & badges */
+.alert-primary {
+    background-color: rgba(255, 122, 0, 0.1);
+    border-color: #ff7a00;
+    color: #ff7a00;
+}
+
+.badge-primary {
+    background-color: #ff7a00;
+}
+
+/* Nav pills */
+.nav-pills .nav-link.active {
+    background-color: #ff7a00;
+}
+
+/* Progress bar */
+.progress-bar {
+    background-color: #ff7a00;
+}
+
+/* Table */
+.table-primary {
+    background-color: rgba(255, 122, 0, 0.1);
+}
+
+.table-primary th,
+.table-primary td {
+    border-color: #ff7a00;
+}
+
+/* Modal */
+.modal-header .btn-close:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 122, 0, 0.25);
+}
+
+/* Navbar (dashboard) */
+.navbar-light .navbar-brand {
+    color: #ff7a00;
+}
+
+.navbar-light .navbar-text {
+    color: #ff7a00;
+}
