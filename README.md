@@ -217,7 +217,11 @@ Pass    : secret
 ---
 
 ## 👨‍💻 Pengembang
+---
 
-Syamil
-Pengembang sistem informasi manajemen kas sekolah
-2025
+**👤 Ahmad Syamil Syauqie**  
+🔗 GitHub: @frezuarr  
+
+📌 Developer – Sistem Informasi Manajemen Kas Sekolah  
+📆 Tahun Pengembangan: 2025  
+
