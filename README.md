@@ -222,6 +222,7 @@ Pass    : secret
 **👤 Ahmad Syamil Syauqie**  
 🔗 GitHub: @frezuarr  
 
+
 📌 Developer – Sistem Informasi Manajemen Kas Sekolah  
 📆 Tahun Pengembangan: 2025  
 
